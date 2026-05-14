@@ -1,4 +1,4 @@
 default: show
 show: index.html
-	xdg-open $<
+	chromium --allow-file-access-from-files $<
 .PHONY: show
